@@ -1,0 +1,53 @@
+{
+  "name": "sms-ui",
+  "version": "0.0.1",
+  "description": "School Management System",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "build": "webpack --mode production",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifecompilers/sms-ui.git"
+  },
+  "keywords": [
+    "SMS",
+    "School",
+    "React"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lifecompilers/sms-ui/issues"
+  },
+  "homepage": "https://github.com/lifecompilers/sms-ui#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.14.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/node": "^7.14.5",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@svgr/webpack": "^5.5.0",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.0",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "node-sass": "^6.0.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^2.0.0",
+    "svg-url-loader": "^7.1.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
